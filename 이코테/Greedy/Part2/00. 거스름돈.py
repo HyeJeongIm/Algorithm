@@ -8,4 +8,4 @@ for c in coin:
   n %= c
 
 print(num)
-  
+
