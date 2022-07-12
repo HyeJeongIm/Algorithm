@@ -27,7 +27,7 @@ def bfs(x):
 if __name__ == "__main__":
   N, M = map(int, input().split())
   arr = [[] for _ in range(N+1)] # [] 6개 생성
-  
+
   for _ in range(M):
       a, b = map(int, input().split())
       arr[b].append(a)
