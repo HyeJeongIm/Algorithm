@@ -30,8 +30,6 @@ for _ in range(n):
   arr = list(map(int, input()))
   graph.append(arr)
 
-
-
 print(bfs(0, 0))
 
 '''
@@ -42,4 +40,5 @@ print(bfs(0, 0))
 111111
 111111
 '''
+
 
